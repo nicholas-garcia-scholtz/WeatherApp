@@ -1,0 +1,76 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(to bottom, #001f4d, #9900ff);
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+  color: rgb(41, 190, 254);
+}
+
+h2 {
+  color: white;
+  margin-top: 0;
+}
+
+
+.inputBox{
+  border-style: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 100%;
+  padding: 4px 10px;
+  margin-left: 0;
+  display: block;
+  outline: none;
+}
+
+.inputBox::placeholder {
+  color: #000000; 
+}
+
+.weatherDisplay {
+  background: linear-gradient(to bottom, rgb(58, 124, 255), rgb(140, 172, 248));
+  min-height: 400px;
+  width: 500px;
+  border-radius: 40px;  
+  padding: 50px 40px;
+}
+
+.submitBtn{
+  width: 40%;
+  border-radius: 10px;
+  background-color: white;
+  border: none;
+  transition: transform 0.3s ease-in-out;
+
+}
+
+.submitBtn:hover{
+  transform: scale(1.05);
+}
+
+.city{
+  color: white;
+  margin-bottom: 0px;
+}
+
+.degrees{
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  font-size: 5em;
+}
+
+.today{
+  margin-bottom: 0;
+}
